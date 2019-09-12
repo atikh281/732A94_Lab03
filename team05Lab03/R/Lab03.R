@@ -1,5 +1,15 @@
+
+
 name = c("Sara", "Atieh")
 
+#'@title Implement the Euclidean algorithm
+#'
+#'@param x A number.
+#'@param y A number.
+#'@description The greatest common divisor of \code{x} and \code{y}.
+#'
+#'@references More information of euclidean algorithm \href{http://en.wikipedia.org/wiki/Euclidean}{here}
+#'    
 
 #1.1.1 Euclidean
 
