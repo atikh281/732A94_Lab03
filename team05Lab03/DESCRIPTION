@@ -9,5 +9,5 @@ Author: c(
     person("Atieh", "Khaleghi", email = "atikh281@student.liu.se", role = "aut"))
 Maintainer: Jose Mendez <josme478@student.liu.se>; Sara Salahshour <sarsa293@student.liu.se>; Atieh Khaleghi <atikh281@student.liu.se>  
 Description: We will try to create our first package in R.
-License: GPLv3
+License: GPL-3
 RoxygenNote: 6.1.1

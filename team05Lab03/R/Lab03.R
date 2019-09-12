@@ -1,7 +1,3 @@
-
-
-name = c("Sara", "Atieh")
-
 #'@title Implement the Euclidean algorithm
 #'
 #'@param x A number.
