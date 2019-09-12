@@ -1,0 +1,13 @@
+Package: team05Lab03
+Type: Package
+Title: Two functions name as euclidean() and dijkstra()
+Version: 0.1
+Date: 2019-09-12
+Author: c(
+    person("Jose", "Mendez", email = "josme478@student.liu.se", role = "aut"),
+    person("Sara", "Salahshour", email = "sarsa293@student.liu.se", role = "aut"), 
+    person("Atieh", "Khaleghi", email = "atikh281@student.liu.se", role = "aut"))
+Maintainer: Jose Mendez <josme478@student.liu.se>; Sara Salahshour <sarsa293@student.liu.se>; Atieh Khaleghi <atikh281@student.liu.se>  
+Description: We will try to create our first package in R.
+License: GPLv3
+RoxygenNote: 6.1.1
