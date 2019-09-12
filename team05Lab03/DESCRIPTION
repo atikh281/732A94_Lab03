@@ -1,14 +1,14 @@
 Package: team05Lab03
-Type: Package
 Title: Two functions name as euclidean() and dijkstra()
-Version: 0.1
-Date: 2019-09-12
-Author: c(
-    person("Jose", "Mendez", email = "josme478@student.liu.se", role = "aut"),
-    person("Sara", "Salahshour", email = "sarsa293@student.liu.se", role = "aut"), 
-    person("Atieh", "Khaleghi", email = "atikh281@student.liu.se", role = "aut"))
-Maintainer: Jose Mendez <josme478@student.liu.se>; Sara Salahshour <sarsa293@student.liu.se>; Atieh Khaleghi <atikh281@student.liu.se>  
+Version: 0.0.0.1000
+Authors@R: 
+    c(
+    person("Jose", "Mendez", email = "josme478@student.liu.se", role = c("aut", "cre")),
+    person("Sara", "Salahshour", email = "sarsa293@student.liu.se", role = c("aut", "cre")), 
+    person("Atieh", "Khaleghi", email = "atikh281@student.liu.se", role = c("aut", "cre"))
+Maintainer: Jose Mendez <josme478@student.liu.se>; Sara Salahshour <sarsa293@student.liu.se>; Atieh Khaleghi <atikh281@student.liu.se>
 Description: We will try to create our first package in R.
 License: GPL-3
-RoxygenNote: 6.1.1
 Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
