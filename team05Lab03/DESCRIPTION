@@ -11,3 +11,4 @@ Maintainer: Jose Mendez <josme478@student.liu.se>; Sara Salahshour <sarsa293@stu
 Description: We will try to create our first package in R.
 License: GPL-3
 RoxygenNote: 6.1.1
+Encoding: UTF-8
