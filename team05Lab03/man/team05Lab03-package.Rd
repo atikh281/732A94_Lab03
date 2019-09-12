@@ -25,6 +25,3 @@ Maintainer: \packageMaintainer{team05Lab03}
 ~~ Literature or other references for background information ~~
 }
 \keyword{ package }
-\examples{
-~~ simple examples of the most important functions ~~
-}
