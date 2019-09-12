@@ -6,10 +6,5 @@
 \packageTitle{team05Lab03}
 }
 \description{
-\packageDescription{team05Lab03}
-}
-\details{
-
-The DESCRIPTION file:
 We erase all of this during the class, hopefully this will work.
 }
