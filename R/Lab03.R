@@ -5,7 +5,7 @@
 #'@description The greatest common divisor of \code{x} and \code{y}.
 #'
 #'@references More information of euclidean algorithm \href{http://en.wikipedia.org/wiki/Euclidean}{here}
-#'    
+#'@export
 
 #1.1.1 Euclidean
 
