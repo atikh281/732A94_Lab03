@@ -7,10 +7,13 @@
 dijkstra(graph, init_node)
 }
 \arguments{
-\item{graph, }{A data frame with three variables, v1, v2 and w that contains the edges of the graph (fromv1 to v2) with the weight of the edge (w)}
+\item{graph, }{A data frame with three variables, v1, v2 and w that contains the edges of the graph (from v1 to v2) with the weight of the edge (w)}
 
 \item{init_node, }{A number.}
 }
 \description{
 The function returns the shortest path to every other node in \code{graph} from \code{init_node}.
+}
+\references{
+More information of dijkstra algorithm \href{https://en.wikipedia.org/wiki/Dijkstra's algorithm}{here}
 }
