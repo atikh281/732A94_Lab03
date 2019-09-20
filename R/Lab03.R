@@ -14,7 +14,7 @@ euclidean <- function (x, y){
   stopifnot(length(x) == 1, length(y) == 1, is.numeric(x) == TRUE, is.numeric(y) == TRUE)
   
   #Code starts here
-  minmax <- c(x,y)
+  minmax <- c(abs(x),abs(y))
   mini <- c()
   maxi <- c()
   i = 1
@@ -46,7 +46,7 @@ euclidean <- function (x, y){
 #1.1.2 dijkstra
 
 dijkstra <- function(graph, init_node){
-  stopifnot(length(init_node) == 1, is.numeric(init_node) == TRUE, is.data.frame(graph) == TRUE, names(graph) == c("v1", "v2", "w"), is.numeric(graph[,1]), is.numeric(graph[,2]), is.numeric(graph[,3]))
+  stopifnot(length(init_node) == 1, is.numeric(init_node) == TRUE, is.data.frame(graph) == TRUE, length(graph[1,]) == 3, names(graph) == c("v1", "v2", "w"), is.numeric(graph[,1]), is.numeric(graph[,2]), is.numeric(graph[,3]), init_node %in% unique(graph$v1))
   Q <- c()
   dist <- c()
   prev <- c()

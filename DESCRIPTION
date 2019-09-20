@@ -8,3 +8,5 @@ Authors@R: c(person("Jose", "Mendez", role = c("aut", "cre"), email = "josme478@
 License: GPL-2
 Encoding: UTF-8
 RoxygenNote: 6.1.1
+Suggests: 
+    testthat
