@@ -33,6 +33,7 @@ euclidean <- function (x, y){
   return(gcd)
   }
 
+
 #'@title Implement the dijkstra algorithm
 #'
 #'@param graph, A data frame with three variables, v1, v2 and w that contains the edges of the graph (fromv1 to v2) with the weight of the edge (w)
@@ -45,6 +46,7 @@ euclidean <- function (x, y){
 #1.1.2 dijkstra
 
 dijkstra <- function(graph, init_node){
+  stopifnot(length(init_node) == 1, is.numeric(init_node) == TRUE, is.data.frame(wiki_graph) == TRUE, names(wiki_graph) == c("v1", "v2", "w"), is.numeric(wiki_graph[,1]), is.numeric(wiki_graph[,2]), is.numeric(wiki_graph[,3]))
   Q <- c()
   dist <- c()
   prev <- c()
@@ -69,7 +71,6 @@ dijkstra <- function(graph, init_node){
       }
     }
   }
-  
-  return (dist, prev)
+  return (dist)
 }
 
